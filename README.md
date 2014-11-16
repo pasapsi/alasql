@@ -20,7 +20,7 @@ Please, submit bugs and suggestions in [issue page]().
 
 Sorry, transactions are broken in version 0.0.17...
 
-You can check [version-0.0.17](https://github.com/agershun/alasql/tree/version-0.0.17) branch for new experimental features of new version. 
+You can check [version-0.0.18](https://github.com/agershun/alasql/tree/version-0.0.17) branch for new experimental features of new version. 
 
 
 ## Examples
