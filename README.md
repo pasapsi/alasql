@@ -35,8 +35,8 @@ Run this sample in [jsFiddle](http://jsfiddle.net/agershun/15r1y9hg/) or try it 
 * Alasql is fast, because it uses some optimization methods. 
 
 Check Alasql vs other JavaScript SQL databases and data processing libraries: 
- * [Alasql vs. WebSQL](http://jsperf.com/alasql-js-vs-websql)
- * [Alasql vs. SQL.js](http://jsperf.com/sql-js-vs-alasql-js/4)
+ * [Alasql vs. WebSQL](http://jsperf.com/alasql-js-vs-websql/7) - for in-memory SELECT operations (see discussion at [issue #47](https://github.com/agershun/alasql/issues/47))
+ * [Alasql vs. SQL.js](http://jsperf.com/sql-js-vs-alasql-js/4) - in-memory operations
  * [Alasql vs. Linq](http://jsperf.com/alasql-vs-linq-on-groupby) - test on 2^20 records
  * Alasql vs. CrossFilter - [test 1](http://jsperf.com/alasql-vs-crossfilter), [test 2 on 8000 records](http://jsperf.com/alasql-vs-crossfilter-athletic-data)
  * [Alasql vs. Lodash](http://jsperf.com/alasql-vs-lodash), [Alasql vs. Lodash vs. Underscore](http://jsperf.com/alasql-vs-lodash-sort/3) 
