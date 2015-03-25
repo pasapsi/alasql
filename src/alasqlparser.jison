@@ -1047,7 +1047,7 @@ StringValue
 
 NullValue
 	: NULL
-		{ $$ = new yy.NullValue({value:undefined}); }
+		{ $$ = new yy.NullValue({value:null}); }
 	;
 
 VarValue

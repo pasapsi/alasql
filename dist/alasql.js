@@ -680,7 +680,7 @@ case 252:
  this.$ = new yy.StringValue({value: $$[$0].substr(2,$$[$0].length-3).replace(/(\\\')/g,"'").replace(/(\'\')/g,"'")}); 
 break;
 case 253:
- this.$ = new yy.NullValue({value:undefined}); 
+ this.$ = new yy.NullValue({value:null}); 
 break;
 case 254:
  this.$ = new yy.VarValue({variable:$$[$0]}); 
