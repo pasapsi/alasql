@@ -21,6 +21,10 @@ describe('Test 267 LocalStorage test', function() {
     alasql('ATTACH localStorage DATABASE db');
     alasql('USE db');
     alasql('CREATE TABLE IF NOT EXISTS test');
+    alasql('CREATE localStorage DATABASE IF NOT EXISTS db');
+    alasql('ATTACH localStorage DATABASE db');
+    alasql('USE db');
+    alasql('CREATE TABLE IF NOT EXISTS test');
     alasql('SELECT * INTO test FROM ?',[data])
     var res = alasql('SELECT * FROM test');
     console.log(res);
